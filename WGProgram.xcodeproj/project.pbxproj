@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		3220A9AC2202C0EB00851282 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3220A9AB2202C0EB00851282 /* AppDelegate.m */; };
 		3220A9AF2202C0EB00851282 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3220A9AE2202C0EB00851282 /* ViewController.m */; };
-		3220A9B22202C0EB00851282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3220A9B02202C0EB00851282 /* Main.storyboard */; };
 		3220A9B42202C0ED00851282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3220A9B32202C0ED00851282 /* Assets.xcassets */; };
 		3220A9B72202C0ED00851282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3220A9B52202C0ED00851282 /* LaunchScreen.storyboard */; };
 		3220A9BA2202C0ED00851282 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3220A9B92202C0ED00851282 /* main.m */; };
 		3220A9C42202C0ED00851282 /* WGProgramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3220A9C32202C0ED00851282 /* WGProgramTests.m */; };
 		3220A9CF2202C0EE00851282 /* WGProgramUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3220A9CE2202C0EE00851282 /* WGProgramUITests.m */; };
+		3220A9DE2202C52700851282 /* WGAddManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3220A9DD2202C52700851282 /* WGAddManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,6 @@
 		3220A9AB2202C0EB00851282 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3220A9AD2202C0EB00851282 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3220A9AE2202C0EB00851282 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3220A9B12202C0EB00851282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3220A9B32202C0ED00851282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3220A9B62202C0ED00851282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3220A9B82202C0ED00851282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,8 @@
 		3220A9CA2202C0EE00851282 /* WGProgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGProgramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3220A9CE2202C0EE00851282 /* WGProgramUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGProgramUITests.m; sourceTree = "<group>"; };
 		3220A9D02202C0EE00851282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3220A9DC2202C52700851282 /* WGAddManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGAddManager.h; sourceTree = "<group>"; };
+		3220A9DD2202C52700851282 /* WGAddManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGAddManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +106,8 @@
 				3220A9AB2202C0EB00851282 /* AppDelegate.m */,
 				3220A9AD2202C0EB00851282 /* ViewController.h */,
 				3220A9AE2202C0EB00851282 /* ViewController.m */,
-				3220A9B02202C0EB00851282 /* Main.storyboard */,
+				3220A9DC2202C52700851282 /* WGAddManager.h */,
+				3220A9DD2202C52700851282 /* WGAddManager.m */,
 				3220A9B32202C0ED00851282 /* Assets.xcassets */,
 				3220A9B52202C0ED00851282 /* LaunchScreen.storyboard */,
 				3220A9B82202C0ED00851282 /* Info.plist */,
@@ -237,7 +239,6 @@
 			files = (
 				3220A9B72202C0ED00851282 /* LaunchScreen.storyboard in Resources */,
 				3220A9B42202C0ED00851282 /* Assets.xcassets in Resources */,
-				3220A9B22202C0EB00851282 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +266,7 @@
 				3220A9AF2202C0EB00851282 /* ViewController.m in Sources */,
 				3220A9BA2202C0ED00851282 /* main.m in Sources */,
 				3220A9AC2202C0EB00851282 /* AppDelegate.m in Sources */,
+				3220A9DE2202C52700851282 /* WGAddManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +302,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3220A9B02202C0EB00851282 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3220A9B12202C0EB00851282 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3220A9B52202C0ED00851282 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
