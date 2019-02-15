@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3207CE582216B8D20090F261 /* WGSwiftTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207CE572216B8D20090F261 /* WGSwiftTest.swift */; };
+		3207CE5C2216BAC70090F261 /* WGOCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3207CE5B2216BAC70090F261 /* WGOCTest.m */; };
 		3220A9AC2202C0EB00851282 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3220A9AB2202C0EB00851282 /* AppDelegate.m */; };
 		3220A9AF2202C0EB00851282 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3220A9AE2202C0EB00851282 /* ViewController.m */; };
 		3220A9B42202C0ED00851282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3220A9B32202C0ED00851282 /* Assets.xcassets */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3207CE572216B8D20090F261 /* WGSwiftTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGSwiftTest.swift; sourceTree = "<group>"; };
+		3207CE592216B9810090F261 /* WGOCSwiftHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGOCSwiftHeader.h; sourceTree = "<group>"; };
+		3207CE5A2216BAC70090F261 /* WGOCTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGOCTest.h; sourceTree = "<group>"; };
+		3207CE5B2216BAC70090F261 /* WGOCTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGOCTest.m; sourceTree = "<group>"; };
 		3220A9A72202C0EB00851282 /* WGProgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WGProgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3220A9AA2202C0EB00851282 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3220A9AB2202C0EB00851282 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,6 +114,10 @@
 				3220A9AE2202C0EB00851282 /* ViewController.m */,
 				3220A9DC2202C52700851282 /* WGAddManager.h */,
 				3220A9DD2202C52700851282 /* WGAddManager.m */,
+				3207CE572216B8D20090F261 /* WGSwiftTest.swift */,
+				3207CE5A2216BAC70090F261 /* WGOCTest.h */,
+				3207CE5B2216BAC70090F261 /* WGOCTest.m */,
+				3207CE592216B9810090F261 /* WGOCSwiftHeader.h */,
 				3220A9B32202C0ED00851282 /* Assets.xcassets */,
 				3220A9B52202C0ED00851282 /* LaunchScreen.storyboard */,
 				3220A9B82202C0ED00851282 /* Info.plist */,
@@ -201,6 +211,7 @@
 				TargetAttributes = {
 					3220A9A62202C0EB00851282 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					3220A9BE2202C0ED00851282 = {
 						CreatedOnToolsVersion = 10.0;
@@ -263,10 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3207CE582216B8D20090F261 /* WGSwiftTest.swift in Sources */,
 				3220A9AF2202C0EB00851282 /* ViewController.m in Sources */,
 				3220A9BA2202C0ED00851282 /* main.m in Sources */,
 				3220A9AC2202C0EB00851282 /* AppDelegate.m in Sources */,
 				3220A9DE2202C52700851282 /* WGAddManager.m in Sources */,
+				3207CE5C2216BAC70090F261 /* WGOCTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
 				INFOPLIST_FILE = WGProgram/Info.plist;
@@ -438,6 +452,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bozhong.WGProgram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/wanggang/Desktop/WGProgram/WGProgram/WGOCSwiftHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -446,6 +463,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
 				INFOPLIST_FILE = WGProgram/Info.plist;
@@ -455,6 +473,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bozhong.WGProgram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/wanggang/Desktop/WGProgram/WGProgram/WGOCSwiftHeader.h;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -462,6 +482,7 @@
 		3220A9D72202C0EE00851282 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
@@ -481,6 +502,7 @@
 		3220A9D82202C0EE00851282 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
@@ -500,6 +522,7 @@
 		3220A9DA2202C0EE00851282 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
 				INFOPLIST_FILE = WGProgramUITests/Info.plist;
@@ -518,6 +541,7 @@
 		3220A9DB2202C0EE00851282 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
 				INFOPLIST_FILE = WGProgramUITests/Info.plist;

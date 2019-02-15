@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "WGAddManager.h"
+#import "WGProgram-Swift.h"
 
 @interface ViewController ()
 
@@ -23,6 +24,8 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"ViewController";
     
+    WGSwiftTest *sw = [[WGSwiftTest alloc] init];
+    [sw swiftFuc];
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
