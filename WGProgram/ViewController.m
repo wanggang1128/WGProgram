@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "WGAddManager.h"
+//项目名称-Swift.h
 #import "WGProgram-Swift.h"
 
 @interface ViewController ()
